@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.MuiFormControl-root .MuiInput-root{
+color: #CDD3DB !important;
+}
+.MuiFormControl-root:hover > .MuiInput-root:not(.Mui-focused) svg{
+  color: #a4a6a8 !important;
+}
+.MuiFormControl-root .MuiInput-root:hover{
+  color: #42E697 !important;
+}
+.MuiFormControl-root .MuiInput-root.Mui-focused{
+  color: #42E697 !important;
+}
+.MuiFormControl-root .MuiInput-root.Mui-focused svg{
+  color: #42E697;
+}
+.MuiFormControl-root:hover > .MuiInput-root.Mui-focused svg{
+  color: #42E697 !important;
+}
+.MuiFormControl-root .MuiInput-root input::placeholder{
+  color: rgba(0, 0, 0, 0.479) !important;
+}
+
+.MuiFormControl-root .MuiInput-root input{
+  color: rgb(0, 0, 0) !important;
+}
+.MuiFormLabel-root{
+  color: #555 !important;
+    font-size: 1.25em !important;
+    font-weight: 500 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    top: -2px !important;
+}
+
+.MuiFormLabel-root.Mui-focused{
+  color: #42E697 !important;
+}
+.MuiFormLabel-root.Mui-error{
+  color: #f44336 !important;
+}
+
+.MuiFormControl-root:hover > .MuiInput-root.Mui-error svg{
+  color: #f44336 !important;
+}
+
+.MuiFormControl-root .MuiInput-root.Mui-error svg{
+  color: #f44336 !important;
+}
